@@ -1,0 +1,1 @@
+Movie Comparison App using OMDB API

@@ -54,5 +54,5 @@ const createAutoComplete = ({
   const closeDropdown = () => {
     dropdown.classList.remove('is-active');
   };
-  input.addEventListener('input', debounce(onInput, 1000));
+  input.addEventListener('input', debounce(onInput, 200));
 };
